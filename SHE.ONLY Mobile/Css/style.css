@@ -1,0 +1,122 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: #f9f9f9;
+    font-size: 15px;
+}
+
+/*HEADER*/
+
+h1
+{
+    font-family: vidaloka;
+    font-size: 25px;
+    font-weight: 2px;
+    text-align: center;  
+}
+.rose
+{
+    color: #ff66c4 ;
+}
+
+.nav1
+{   
+    float:left;
+    padding: 5px;
+}
+ ul li
+{   
+    list-style: none;
+    display: inline-block;
+}
+a
+{
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+}
+
+.nav2
+{
+    float: right;
+}
+.fas
+{
+    margin: 5px;
+    padding-right: 10px ;
+}
+.nav2 li a:hover
+{
+    color: #ff66c4;
+}
+.nav1 li a:hover
+{color: #ff66c4;}
+.image-principale
+{
+    max-width: 100%;
+    height: auto;
+}
+/*STEP*/
+
+#step p
+{
+
+    text-align: left;
+    margin:20px;
+    
+}
+.Bienvenue
+{
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 92.5%;
+    height: auto;
+    padding:5px;
+}
+/*PRODUITS*/
+h2
+{
+    text-align: center;
+    background-color: #c4c4c4;
+    margin: 10px 30px;
+    margin-left: 20px;
+}
+/*POSSIBILITIES*/
+#pinceaux
+{  
+    background:url("../Images/pinceaux.jpg") no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 10px;  
+}
+#pinceaux h3
+{
+    width: 100px;
+    margin: 100px;
+}
+.button-2
+{
+    color:white;
+    background-color:black;
+    padding:8px 20px;
+    border-radius: 3px;  
+}
+.button-2:hover
+{
+    background-color: #ff66c4;
+}
+#Accessoires
+{
+    background: url("../Images/Accéssoires.jpg") no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 10px;  
+}
